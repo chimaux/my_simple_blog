@@ -1,0 +1,38 @@
+.post_container{
+    display: flex;
+    justify-content: center;
+
+
+    .post_subcontainer{
+        width: 80%;
+        height: fit-content;
+        padding: 30px;
+        background-color: #ffffff; 
+        border-radius: 10px; 
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        
+        .ps_post{
+            font-size: 30px;
+            font-weight: 500;
+        }
+
+        .comment_box{
+            border: 2px solid #242424;
+            border-radius: 3px;
+            padding: 20px;
+            margin-bottom: 20px;
+
+            .title{
+                font-size: 28px;
+                font-weight: 500;
+                margin-bottom: 20px;
+            }
+            .comment{
+                font-size: 18px;
+            }
+            .author{
+                font-size: 18px;
+            }
+        }
+    }
+}

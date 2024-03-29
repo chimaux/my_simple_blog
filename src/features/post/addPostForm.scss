@@ -1,0 +1,56 @@
+
+.postFormContainer{
+ display: flex;
+ justify-content: center;
+
+
+.psc_sub{
+    width: 80%;
+    height: fit-content;
+    padding: 30px;
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+
+    label{
+        display: block;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .title_text_input{
+        width: 100%;
+        padding:20px 0 20px 20px ;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .content_text_input{
+        display: block;
+        padding: 20px 0 20px 20px;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .userSelect{
+        display: block;
+        margin-bottom: 30px;
+        padding: 5px;
+        font-size: 16px;
+        .userOption{
+            font-size: 16px;
+        }
+    }
+    .the_save_btn{
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    }
+    .ps_title{
+        font-size: 30px;
+        letter-spacing: 0.5px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    
+}
+}
